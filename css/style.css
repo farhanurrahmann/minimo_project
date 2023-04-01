@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    color: gray;
+    
+}
+.container{
+    padding: 40px 0;
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid; */
+    overflow: hidden;
+
+}
+.logo{
+    margin-top: 8px;
+    float: left;
+    width: 14%;
+
+}
+.logo a {
+    display: block;
+}
+.logo img{
+    width: 100%;
+
+}
+.menu{
+    float: right;
+}
+.menu ul li{
+ list-style: none;
+ float: left;
+ padding: 0 50px;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+ 
+
+}
+.menu ul{
+    float: right;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid black;
+    transition: .33s;
+   
+}
+
+.img_wrapper img{
+    width: 100%;
+}
+.container2{
+    padding: 80px 0;
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+.light_text{
+    text-transform: uppercase;
+}
+.p_content{
+    line-height: 25px;
+}
+.text_margin{
+    margin: 40px 0;
+}
+.blog{
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+.first_blog_wrapper{
+    width: 48%;
+    float: left;
+   
+}
+.first_blog_img_wrapper img{
+    width:100%;
+}
+
+.first_blog_wrapper:nth-child(even){
+    margin-left: 4%;
+}
+.blog_margin{
+    margin-top: 60px;
+}
+.newslatter_section{
+    margin: 80px 0;
+    width: 100%;
+    min-height: 265px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.newslatter_container{
+
+    margin: 0 auto;
+    margin-top: 40px;
+    /* border: 1px solid; */
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 24px;
+    bottom: 0;
+}
+.newslatter_container h1{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+.newslatter{
+    margin: 0 auto;
+    position: relative;
+    /* border: 1px solid; */
+    width: 60%;
+    
+}
+
+.newslatter input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 15px;
+    padding-right: 30px;
+    background-color: transparent;
+    width: 360px;
+    height: 40px;
+}
+.newslatter input:focus{
+    outline: 0;
+}
+.newslatter button{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.newslatter button:focus{
+    outline: 0;
+}
+
+.load_more{
+    margin: 0 auto;
+    width: 60%;
+    height: 50px;
+    margin-top: 30px;
+    /* border: 1px solid; */
+    /* position: relative; */
+    
+}
+.load_more  button{
+    display: block;
+    /* align-items: center; */
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+    /* position: absolute; */
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .33s;
+}
+.load_more  button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid;
+}
+
+.footer{
+
+    margin-top: 80px;
+    width: 100%;
+    height: 120px;
+    background-color: #f0f0f0;
+}
+.footer_wrapper{
+    margin: 0 auto;
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+    /* border: 1px solid; */
+}
+.footer_left_box{
+    min-height: 50px;
+    margin-top: 42px;
+   width: 40%;
+  
+   float: left;
+
+}
+
+.footer_left_box ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer_left_box ul li{
+    margin-right: 30px;
+    float: left;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footer_right_box{
+    min-height: 50px;
+    margin-top: 42px;
+    width: 59%;
+
+     float: left;
+     position: relative;
+ }
+
+ .footer_right_box ul li {
+    list-style: none;
+ }
+ .footer_right_box ul li{
+    margin-right: 30px;
+    float: left;
+    list-style-type: none;
+    cursor: pointer;
+
+ }
+.twitter{
+    width: 22px;
+    position: absolute;
+    bottom:14px;
+    right: 100px;
+}
+.facebook{
+    width: 12px;
+    position: absolute;
+    right: 50px;
+    bottom:14px;
+}
+.insta{
+    width: 20px;
+    position: absolute;
+    right: 0;
+    bottom:14px;
+}
+.follow{
+    position: absolute;
+    right: 150px;
+    bottom:14px; 
+    text-decoration: none;
+    color: black;
+}
